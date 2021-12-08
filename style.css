@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Activated When Clicked */
+
+.sidebar.close {
+    width: 80px;
+}
+
+
+
+/* End */
+
+.sidebar {
+    width: 280px;
+    height: 100%;
+    background: #261C2C;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.sidebar .logo {
+    width: 100%;
+    display: flex;
+    background: #3E2C41;
+    color: #FFF;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+/* .logo i, h3 {
+    display: none;
+}
+
+.logo .btn-toggle i {
+    display: block;
+} */
+
+.logo i {
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.logo .btn-toggle{
+    width: 70px;
+    padding-left: 20px;
+}
+
+.logo .btn-toggle i {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.sidebar ul {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sidebar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar ul li a i {
+    padding-right: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li:hover{
+    background: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
